@@ -3,8 +3,8 @@ from collections import deque
 def bfs(graph: dict, root) -> set:
     """
     :param graph: dict
-    :param root: str or int; represent root node
-    :return: list of nodes
+    :param root: str or int
+    :return: set of nodes
     """
     queue = deque()
     queue.extend(graph[root])
@@ -16,23 +16,3 @@ def bfs(graph: dict, root) -> set:
             visited.add(node)
 
     return visited
-
-
-graph = {
-    'a': set(['b', 'c']),
-    'b': set(['a', 'e']),
-    'c': set(['a', 'd']),
-    'e': set(['b']),
-    'd': set(['c', 'f', 'g', 'h']),
-    'h': set(['d']),
-    'f': set(['d']),
-    'g': set(['d']),
-}
-
-graph2 = {
-    1: [2, 3],
-    2: [1, 4],
-    3: [1],
-    4: [2]
-}
-
