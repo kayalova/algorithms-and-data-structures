@@ -1,5 +1,5 @@
 # Algorithms and data structures
-My solutions for popular algorithms and data structures(for learning purposes)
+My solutions for popular algorithms and data structures (for learning purposes)
 ## List of implementations
 ### Sorting algorithms
 - [Selection sort](https://github.com/takoekote/algorithms-and-data-structures/blob/master/algorithms/sorting/selection_sort.py)
