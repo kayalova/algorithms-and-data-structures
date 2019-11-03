@@ -12,3 +12,4 @@ My solutions for popular algorithms and data structures (for learning purposes)
 
 ### Graphs
 - [Breadth First Search](https://github.com/takoekote/algorithms-and-data-structures/blob/master/algorithms/graphs/bfs.py)
+- [Depth First Search](https://github.com/takoekote/algorithms-and-data-structures/blob/master/algorithms/graphs/dfs.py)
